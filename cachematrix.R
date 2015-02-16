@@ -16,6 +16,11 @@
 ## >>> func$set(new_mat)		## change matrix to be inverted
 ## >>> inv_new_mat<-cacheSolve(func)	## compute inversion of new matrix
 ## 
+## Alternatively, the following sequence would also compute the inverse of the matrix
+##
+## >>> func<-makeCacheMatrix(mat)
+## >>> inv_mat<-cacheSolve(func)
+##
 
 
 ##
